@@ -1,0 +1,29 @@
+#message_happy_birthday{
+  background: url(../images/backgrounds/drawing.jpg);
+  background-size: cover;
+  background-position: top;
+
+  display: flex;
+  justify-content: center; /*Centra horizontalmente*/
+  align-items: center;
+}
+
+#message_happy_birthday div{
+  margin: 0 auto;
+  height: 65vh;
+
+  max-width: 800px;
+  width: 95vw;
+  display: flex;
+
+  justify-content: center; /*Centra horizontalmente*/
+  align-items:flex-end;
+}
+
+#message_happy_birthday h1{
+  margin-bottom: 20%;
+  text-align: center;
+  font-family: "NexaBold";
+  font-size: 50px;
+  color: white;
+}
