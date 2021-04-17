@@ -1,0 +1,96 @@
+#chat{
+  background-color: #E9E9E9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#chat .content{
+  justify-content: center;
+  display: grid;
+}
+
+#chat .ballon_Content{
+  max-width: 1000px;
+  width: 95vw;
+  display: flex;
+  align-items:flex-end;
+}
+
+#chat .ballon{
+  max-width: 400px;
+  width: auto;
+  height: auto;
+
+  margin-bottom: 200px;
+
+  font-size: 20px;
+  font-family: 'NexaLight';
+  color: black;
+}
+
+svg{
+  margin: 5px;
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+
+path{
+  fill: #ed4956;
+}
+
+#chat .ballon_Content.left .ballon{
+}
+
+#chat .right{
+  justify-content: flex-end;
+}
+
+#chat .left{
+  justify-content: flex-start;
+}
+
+#chat .picProfile{
+  height: 25px;
+  width: 25px;
+  margin: 3px;
+  border-radius: 100%;
+  background-image: url("../img/content/chat/picProfile.jpg");
+
+}
+
+#chat .ballon p{
+  text-align: left;
+  letter-spacing: 0.5pt;
+  line-height: 130%;
+  margin: 15px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#chat .left .start{
+  border-bottom-left-radius: 2px;
+}
+
+#chat .left .middle{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#chat .left .end{
+  border-top-left-radius: 3px;
+}
+
+
+#chat .right .start{
+  border-bottom-right-radius: 3px;
+}
+
+#chat .right .middle{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#chat .right .end{
+  border-top-right-radius: 3px;
+}
